@@ -19,6 +19,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
+    
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -43,6 +44,7 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    font-family: Montserrat, Verdana;
 }
 
 a:hover,
@@ -144,7 +146,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #DA2E2E;
-    background: url(../img/bg.svg); 
+    background: url(../img/bg.svg);
     /* background-color: #000; */
     
     -webkit-background-size: cover;
@@ -363,12 +365,22 @@ body {
 
 .copyright {
     color: #42dca3;
+    font-family: Montserrat, Verdana;
 }
 
 input[type="text"] {
     height: 60px;
+    text-align: center;
+    font-family: Montserrat, Verdana;
 }
 
- button[type="submit"] {
+button[type="submit"] {
     height: 60px;
- }
+    text-align: center;
+}
+
+.middle {
+    padding: 10px 0 0 10px;
+}
+
+#middle {}
