@@ -19,7 +19,6 @@ h5,
 h6 {
     margin: 0 0 35px;
     /*text-transform: uppercase;*/
-    
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -55,8 +54,8 @@ a:focus {
 
 .light {
     font-weight: 400;
-    font-family: 'Radley', serif;
-    text-transform: none;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: none;   
     font-size: 25px;
 }
 
@@ -146,7 +145,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #DC5442;
-    background: url(../img/bg.svg);
+    background: url(../img/bg.svg); 
     /* background-color: #000; */
     
     -webkit-background-size: cover;
@@ -178,8 +177,9 @@ a:focus {
     }
     .intro .intro-body .intro-text {
         font-size: 26px;
+    
         font-family: Montserrat;
-    }
+}
 }
 
 .btn-circle {
@@ -375,13 +375,15 @@ input[type="text"] {
     font-family: Montserrat, Verdana;
 }
 
-button[type="submit"] {
+ button[type="submit"] {
     height: 60px;
     text-align: center;
-}
+ }
 
-.middle {
+ .middle {
     padding: 10px 0 0 10px;
-}
+ }
 
-#middle {}
+ #middle {
+
+ }
