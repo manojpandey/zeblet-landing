@@ -40,7 +40,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #42DCAA;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -55,7 +55,7 @@ a:focus {
 
 .light {
     font-weight: 400;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Radley', serif;
     text-transform: none;
     font-size: 25px;
 }
@@ -88,7 +88,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #DA1818;
+    color: #DC5442;
 }
 
 .navbar-custom .nav li a {
@@ -145,7 +145,7 @@ a:focus {
     height: 98%;
     padding: 100px 0;
     text-align: center;
-    color: #DA2E2E;
+    color: #DC5442;
     background: url(../img/bg.svg);
     /* background-color: #000; */
     
@@ -178,6 +178,7 @@ a:focus {
     }
     .intro .intro-body .intro-text {
         font-size: 26px;
+        font-family: Montserrat;
     }
 }
 
