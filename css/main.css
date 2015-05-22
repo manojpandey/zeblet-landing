@@ -39,7 +39,7 @@ p {
 }
 
 a {
-    color: #42DCAA;
+    color: #36EDE7;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -87,7 +87,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #DC5442;
+    color: #883F97;
 }
 
 .navbar-custom .nav li a {
@@ -144,7 +144,7 @@ a:focus {
     height: 98%;
     padding: 100px 0;
     text-align: center;
-    color: #DC5442;
+    color: #15FAE9;
     background: url(../img/bg.svg); 
     /* background-color: #000; */
     
