@@ -78,7 +78,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: blue;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -98,8 +98,8 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255, 255, 255, .8);
-    background-color: transparent;
+    color: blue;
+/*     background-color: transparent; */
 }
 
 .navbar-custom .nav li a:focus,
@@ -126,7 +126,7 @@ a:focus {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
-        background-color: #fff;
+        background-color: #FFF;
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -348,8 +348,8 @@ footer p {
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255, 255, 255, .2);
+    background: #F70F0F;
+    background: rgba(255, 0, 0, 0.83);
 }
 
 img::selection {
@@ -378,6 +378,7 @@ input[type="text"] {
  button[type="submit"] {
     height: 60px;
     text-align: center;
+    font-weight: bold;
  }
 
  .middle {
