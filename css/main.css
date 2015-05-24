@@ -348,8 +348,7 @@ footer p {
 
 ::selection {
     text-shadow: none;
-    background: #F70F0F;
-    background: rgba(255, 0, 0, 0.83);
+    background: rgba(194, 227, 240, 0.83);
 }
 
 img::selection {
@@ -375,12 +374,32 @@ input[type="text"] {
     font-family: Montserrat, Verdana;
 }
 
-button[type="submit"] {
+.fa.submit {
     height: 60px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+button[type="button"] {
+    height: 51px;
     text-align: center;
     font-weight: bold;
 }
 
 .middle {
     padding: 10px 0 0 10px;
+}
+
+.drop-top {
+    border: none;
+    color: #42dca3;
+    background-color: transparent;
+}
+
+.drop-top:hover,
+.drop-top:focus {
+    outline: 0;
+    color: blue;
+    background: transparent;
 }
