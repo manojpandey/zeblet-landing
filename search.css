@@ -376,3 +376,7 @@ button[type="submit"] {
     height: 33%;
     padding-top: 15px;
 }
+
+.footer-down {
+    position: fixed;
+}

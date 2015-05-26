@@ -63,7 +63,7 @@ a:focus {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #fff;
 }
@@ -100,7 +100,7 @@ a:focus {
 .navbar-custom .nav li a:hover {
     outline: 0;
     color: blue;
-    /*     background-color: transparent; */
+    background-color: transparent; 
 }
 
 .navbar-custom .nav li a:focus,
@@ -123,7 +123,7 @@ a:focus {
 
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 20px 0;
+        padding: 0px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -182,46 +182,6 @@ a:focus {
     }
 }
 
-.btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #201BDF;
-    border-radius: 100%!important;
-    font-size: 40px;
-    color: #800905;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    color: #fff;
-    background: rgba(255, 255, 255, .1);
-}
-
-.btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
 @-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
@@ -250,22 +210,6 @@ a:focus {
         -moz-transform: scale(1);
         transform: scale(1);
     }
-}
-
-.content-section {
-    padding-top: 100px;
-}
-
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 #map {
@@ -333,7 +277,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 10px 0;
+    padding: 2px;
 }
 
 footer p {
@@ -363,6 +307,11 @@ body {
     webkit-tap-highlight-color: rgba(255, 255, 255, .2);
 }
 
+.extra-gap {
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+
 .copyright {
     color: #42dca3;
     font-family: Montserrat, Verdana;
@@ -379,6 +328,12 @@ input[type="text"] {
     text-align: center;
     font-weight: bold;
     line-height: 45px;
+}
+
+button[type="submit"] {
+    height: 42px;
+    text-align: center;
+    font-weight: bold;
 }
 
 button[type="button"] {
@@ -402,4 +357,85 @@ button[type="button"] {
     outline: 0;
     color: blue;
     background: transparent;
+}
+
+.signup {
+    background-color: turquoise;
+}
+
+.topper {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+}
+
+.search {
+    top: 50px;
+    width: 100%;
+    padding: 7px 0 7px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    position: fixed;
+}
+
+.first {
+    background-color: white;
+    overflow-y: auto;
+    height: 551px;
+    /* max-height: 100%; */
+}
+
+.second {
+    text-align: center;
+    background-color: white;
+    display: block;
+    position: initial;
+    overflow-y: hidden;
+}
+
+.box {
+    margin-top: 108px;
+    position: inherit;
+    width: 100%;
+    background-color: paleturquoise;
+}
+
+.col-md-5 {
+    padding: 0px;
+    height: 78%;
+}
+
+.row {
+    margin: 0px;
+    height: 100%;
+}
+
+.col-md-7 {
+    padding: 0px;
+}
+
+.filters {
+    text-align: left;
+    color: blue;
+    background-color: rgb(202, 230, 235);
+    height: 200px;
+}
+
+.price-filter {
+    height: 33%;
+    padding-top: 15px;
+}
+
+.distance-filter {
+    height: 33%;
+    padding-top: 15px;
+}
+
+.sortby-filter {
+    height: 33%;
+    padding-top: 15px;
+}
+
+.footer-down {
+    position: fixed;
 }

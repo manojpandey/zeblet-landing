@@ -1,0 +1,91 @@
+{"doctors":[
+    {
+    	"firstName":"Manoj", 
+    	"lastName":"Pandey", 
+    	"Location":"Dwarka Sector 5",
+    	"Consultation Fee":"500",
+    	"Speciality":"Dentist",
+    	"Verified_status":"Y"
+    },
+
+	{
+    	"firstName":"Ankur", 
+    	"lastName":"Singh", 
+    	"Location":"Dwarka Sector 11",
+    	"Consultation Fee":"600",
+    	"Speciality":"Oncologist",
+    	"Verified_status":"N"
+    },
+    
+    {
+    	"firstName":"Kanad", 
+    	"lastName":"Bhagi", 
+    	"Location":"Dwarka Sector 8",
+    	"Consultation Fee":"400",
+    	"Speciality":"Surgeon",
+    	"Verified_status":"Y"
+    },
+    
+    {
+    	"firstName":"Amitabh", 
+    	"lastName":"Dwivedi", 
+    	"Location":"Dwarka Sector 12",
+    	"Consultation Fee":"800",
+    	"Speciality":"Anaesthetic",
+    	"Verified_status":"Y"
+    },
+    
+    {
+    	"firstName":"Deepak", 
+    	"lastName":"Kumar", 
+    	"Location":"Dwarka Sector 7",
+    	"Consultation Fee":"200",
+    	"Speciality":"General Doctor",
+    	"Verified_status":"N"
+    },
+    
+    {
+    	"firstName":"Kanad", 
+    	"lastName":"M. Bhagi", 
+    	"Location":"Dwarka Sector 16",
+    	"Consultation Fee":"600",
+    	"Speciality":"Dentist",
+    	"Verified_status":"Y"
+    },
+    
+    {
+    	"firstName":"Ankur", 
+    	"lastName":"Sharma", 
+    	"Location":"Dwarka Sector 1",
+    	"Consultation Fee":"420",
+    	"Speciality":"Surgeon",
+    	"Verified_status":"N"
+    },
+    
+    {
+    	"firstName":"Reeta", 
+    	"lastName":"Dwivedi", 
+    	"Location":"Dwarka Sector 13",
+    	"Consultation Fee":"550",
+    	"Speciality":"Oncologist",
+    	"Verified_status":"Y"
+    },
+    
+    {
+    	"firstName":"Yash", 
+    	"lastName":"Gupta", 
+    	"Location":"Dwarka Sector 18",
+    	"Consultation Fee":"350",
+    	"Speciality":"General Doctor",
+    	"Verified_status":"N"
+    },
+    
+    {
+    	"firstName":"Rahul", 
+    	"lastName":"Kumar", 
+    	"Location":"Dwarka Sector 5",
+    	"Consultation Fee":"250",
+    	"Speciality":"Surgeon",
+    	"Verified_status":"Y"
+    },
+]}
