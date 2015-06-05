@@ -131,7 +131,9 @@ a:focus {
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
-    }
+    
+        border-bottom: 1px solid grey;
+}
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255, 255, 255, .3);
@@ -170,7 +172,7 @@ a:focus {
 
 @media(min-width:768px) {
     .intro {
-        height: 100%;
+        height: calc(100% - 26px);
         padding: 0;
     }
     .intro .intro-body .brand-heading {
@@ -278,6 +280,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 2px;
+    border-top: 1px solid grey;
 }
 
 footer p {
@@ -438,4 +441,8 @@ button[type="button"] {
 
 .footer-down {
     position: fixed;
+}
+
+.row ul {
+    margin: auto;
 }
