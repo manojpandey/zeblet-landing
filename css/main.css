@@ -148,13 +148,11 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #15FAE9;
-    background: url(../img/bg.svg);
+    background: url(../img/background.svg);
     /* background-color: #000; */
+    background-repeat: no-repeat;
     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-position: center;
 }
 
 .intro .intro-body {
