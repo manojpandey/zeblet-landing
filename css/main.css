@@ -160,6 +160,7 @@ a:focus {
     /* display: block; */
     
     background: url(../img/background.svg);
+    background-size: cover;
     background-repeat: no-repeat;
     width: auto;
     height: 100%;
