@@ -2,8 +2,6 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* color: #F70E0E; */
-    /* background-color: rgba(255, 98, 98, 0.5); */
 }
 
 html {
@@ -18,8 +16,6 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    /*text-transform: uppercase;*/
-    
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -62,8 +58,9 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    border-bottom: 1px solid grey;
     /*text-transform: uppercase;*/
+    
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #fff;
 }
@@ -88,7 +85,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #883F97;
+    color: #9E505F;
 }
 
 .navbar-custom .nav li a {
@@ -100,13 +97,14 @@ a:focus {
 .navbar-custom .nav li a:hover {
     outline: 0;
     color: blue;
-    background-color: transparent; 
+    background: transparent;
 }
 
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
     background-color: transparent;
+    border-radius: 30px;
 }
 
 .navbar-custom .nav li.active {
@@ -123,17 +121,17 @@ a:focus {
 
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 0px 0;
+        padding: 10px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
-        background-color: #FFF;
+        background-color: #E6F8FB;
+        background: linear-gradient(rgb(107, 213, 229), rgb(255, 255, 255) 100%);
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
-    
-        border-bottom: 1px solid grey;
-}
+        /* border-bottom: 1px solid grey; */
+    }
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255, 255, 255, .3);
@@ -147,17 +145,30 @@ a:focus {
     height: 98%;
     padding: 100px 0;
     text-align: center;
-    color: #15FAE9;
-    background: url(../img/background.svg);
-    /* background-color: #000; */
-    background-repeat: no-repeat;
-    
-    background-position: center;
 }
 
 .intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
+    margin-top: 209px;
+    z-index: 111111;
+}
+
+.bg-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* z-index: 1; */
+    /* display: block; */
+    
+    background: url(../img/background.svg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+    background-position: center;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
 }
 
 .intro .intro-body .brand-heading {
@@ -242,8 +253,9 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    /* color: #42dca3; */
     background-color: transparent;
 }
 
@@ -278,7 +290,9 @@ ul.banner-social-buttons {
 
 footer {
     padding: 2px;
-    border-top: 1px solid grey;
+    /* border-top: 1px solid grey; */
+    
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(201, 240, 247) 65%);
 }
 
 footer p {
@@ -318,10 +332,15 @@ body {
     font-family: Montserrat, Verdana;
 }
 
+.search-box {
+    position: relative;
+}
+
 input[type="text"] {
     height: 60px;
     text-align: center;
     font-family: Montserrat, Verdana;
+    border-radius: 30px;
 }
 
 .fa.submit {
@@ -361,14 +380,10 @@ button[type="button"] {
 }
 
 .signup {
-    background-color: turquoise;
+    background-color: rgb(174, 187, 240);
+    border-radius: 30px;
 }
 
-.topper {
-    background-color: black;
-    position: absolute;
-    width: 100%;
-}
 
 .search {
     top: 50px;
